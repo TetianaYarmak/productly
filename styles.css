@@ -177,16 +177,27 @@ span {
     font-weight: 600;
     background: #FF9900;
     color: #FFFFFF;
-    margin-top: 34px;
+    margin-top: 70px;
+    margin-bottom: 74px;
     width: 175px;
     height: 53px;
     border-radius: 4px;
+  }
+
+  .bg-image {
+    background-image: url("images/bg.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+
   }
 }
 
 .professionals {
   display: flex;
-  margin-top: 120px;
+  margin-top: 100px;
   align-items: center;
 
   .content {
